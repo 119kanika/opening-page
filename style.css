@@ -1,5 +1,7 @@
-body {
-  background: rgb(253, 214, 220);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .main-content {
@@ -8,9 +10,7 @@ body {
   align-items: center;
   margin: 10% 0;
   padding: 30px 0;
-  border: 5px solid rosybrown;
   border-radius: 10px;
-  background-color: rgb(245, 167, 167);
 }
 
 .Lines {
@@ -43,8 +43,8 @@ img {
 p {
   /* border: 1px solid red; */
   font-family: "Lexend", sans-serif;
-  font-size: 7vh;
-  font-weight: bolder;
+  font-size: 6vh;
+  font-weight: bold;
   padding: 2px;
   margin: 5px;
 }
